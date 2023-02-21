@@ -1,0 +1,23 @@
+CREATE TABLE ballet_store (id INTEGER primary key, name TEXT, price INTEGER, color TEXT, size INTEGER);
+
+INSERT into ballet_store VALUES 
+(1, "leotard", 20.99, "blue", 10),
+(2, "leotard", 20.99, "pink", 12),
+(3, "leotard", 20.99, "black", 8),
+(4, "skirt", 15.99, "purple", 10),
+(5, "skirt", 15.99, "white", 6),
+(6, "skirt", 12.99, "blue", 6),
+(7, "bag", 30.99, "black", 0),
+(8, "sweater", 24.99, "rainbow", 12),
+(9, "tap shoes", 49.99, "black", 8.5), 
+(10, "shirt", 2.99, "pink", 10),
+(11, "tutu", 34.50, "white", 0),
+(12, "tutu", 34.50, "blue", 10),
+(13, "tights", 10.99, "tan", 12), 
+(14, "tights", 10.99, "tan", 10),
+(15, "bag", 20.99, "black", 0);
+
+SELECT * FROM ballet_store;
+
+SELECT * FROM ballet_store
+ORDER BY price DESC;
